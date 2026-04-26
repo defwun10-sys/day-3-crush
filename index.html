@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Day 3 👀</title>
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      margin-top: 100px;
+      background-color: #111;
+      color: white;
+    }
+    button {
+      padding: 15px 30px;
+      font-size: 18px;
+      margin: 10px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .yes {
+      background-color: #4CAF50;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Day 3 of asking my crush if she's single</h1>
+  <p>Are you single?</p>
+
+  <button class="yes" onclick="answer()">Yes</button>
+  <button class="yes" onclick="answer()">Yes</button>
+
+  <p id="response"></p>
+
+  <script>
+    function answer() {
+      document.getElementById("response").innerHTML = "I knew it 😏";
+    }
+  </script>
+
+</body>
+</html>
